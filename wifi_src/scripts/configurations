@@ -1,0 +1,160 @@
+./scripts/wireless_setup.sh -e none -h HT20
+./scripts/wireless_setup.sh -e none -h HT40
+./scripts/wireless_setup.sh -e none -h VHT20
+./scripts/wireless_setup.sh -e none -h VHT40
+./scripts/wireless_setup.sh -e none -h VHT80
+./scripts/wireless_setup.sh -e psk+tkip -h HT20
+./scripts/wireless_setup.sh -e psk+tkip -h HT40
+./scripts/wireless_setup.sh -e psk+tkip -h VHT20
+./scripts/wireless_setup.sh -e psk+tkip -h VHT40
+./scripts/wireless_setup.sh -e psk+tkip -h VHT80
+./scripts/wireless_setup.sh -e psk+aes -h HT20
+./scripts/wireless_setup.sh -e psk+aes -h HT40
+./scripts/wireless_setup.sh -e psk+aes -h VHT20
+./scripts/wireless_setup.sh -e psk+aes -h VHT40
+./scripts/wireless_setup.sh -e psk+aes -h VHT80
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT20
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT40
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT20
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT40
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT80
+./scripts/wireless_setup.sh -e psk2+tkip -h HT20
+./scripts/wireless_setup.sh -e psk2+tkip -h HT40
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT20
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT40
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT80
+./scripts/wireless_setup.sh -e psk2+aes -h HT20
+./scripts/wireless_setup.sh -e psk2+aes -h HT40
+./scripts/wireless_setup.sh -e psk2+aes -h VHT20
+./scripts/wireless_setup.sh -e psk2+aes -h VHT40
+./scripts/wireless_setup.sh -e psk2+aes -h VHT80
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT20
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT40
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT20
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT40
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT80
+./scripts/wireless_setup.sh -e psk-mixed -h HT20
+./scripts/wireless_setup.sh -e psk-mixed -h HT40
+./scripts/wireless_setup.sh -e psk-mixed -h VHT20
+./scripts/wireless_setup.sh -e psk-mixed -h VHT40
+./scripts/wireless_setup.sh -e psk-mixed -h VHT80
+./scripts/wireless_setup.sh -e none -h HT20 -d 0
+./scripts/wireless_setup.sh -e none -h HT40 -d 0
+./scripts/wireless_setup.sh -e none -h VHT20 -d 0
+./scripts/wireless_setup.sh -e none -h VHT40 -d 0
+./scripts/wireless_setup.sh -e none -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk+tkip -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk+tkip -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk+tkip -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk+tkip -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk+tkip -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk+aes -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk+aes -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk+aes -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk+aes -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk+aes -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk2+aes -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk2+aes -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk2+aes -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk2+aes -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk2+aes -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT80 -d 0
+./scripts/wireless_setup.sh -e psk-mixed -h HT20 -d 0
+./scripts/wireless_setup.sh -e psk-mixed -h HT40 -d 0
+./scripts/wireless_setup.sh -e psk-mixed -h VHT20 -d 0
+./scripts/wireless_setup.sh -e psk-mixed -h VHT40 -d 0
+./scripts/wireless_setup.sh -e psk-mixed -h VHT80 -d 0
+./scripts/wireless_setup.sh -e none -h HT20 -s 1
+./scripts/wireless_setup.sh -e none -h HT40 -s 1
+./scripts/wireless_setup.sh -e none -h VHT20 -s 1
+./scripts/wireless_setup.sh -e none -h VHT40 -s 1
+./scripts/wireless_setup.sh -e none -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT80 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h HT20 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h HT40 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT20 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT40 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT80 -s 1
+./scripts/wireless_setup.sh -e none -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e none -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e none -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e none -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e none -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+aes -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk+tkip+ccmp -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+aes -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk2+tkip+ccmp -h VHT80 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h HT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h HT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT20 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT40 -d 0 -s 1
+./scripts/wireless_setup.sh -e psk-mixed -h VHT80 -d 0 -s 1

@@ -1,0 +1,23 @@
+1. Copy out the 50-cloud-init.yaml to /etc/netplan and edit it to have the correct IP address
+2. sudo netplan generate
+3. sudo netplan apply
+
+# first time only:
+4. sudo hostnamectl set-hostname pi#
+5. sudo vim /etc/cloud/cloud.cfg 
+	a. set preserve_hostname: true
+	b. verify /etc/hostname is correct
+
+
+
+For open network:
+
+access-points:
+	"ssid": {}
+
+
+For password network:
+
+access-points:
+	"ssid":
+		password: "password here"

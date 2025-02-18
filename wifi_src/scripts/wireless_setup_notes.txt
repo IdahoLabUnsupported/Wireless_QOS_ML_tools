@@ -1,0 +1,22 @@
+1. Connect with ssh to the router (ssh root@192.168.1.1)
+2. Execute commands (e.g. uci set wireless.radioN.country='XX') - use command uci show wireless to determine radioN value).
+3. Commit changes (uci commit wireless)
+4. Reload the wifi interfaces (wifi reload)
+5. Wait a few minutes to allow the radios to boot etc.
+
+
+radio0 = 5g
+radio1 = 2g
+
+
+
+TCPDUMP setup
+=================
+( sudo groupadd pcap
+sudo usermod -a -G pcap ubuntu
+sudo chgrp pcap /usr/bin/tcpdump
+sudo chmod 750 /usr/bin/tcpdump
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/tcpdump )
+
+Testing:
+tcpdump src 192.168.1.178 or dst 192.168.1.178 and port 80 -w /home/ubuntu/data/data.pcap

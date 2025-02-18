@@ -1,0 +1,16 @@
+configuration_id,integrity_algorithm,encryption_algorithm
+1,IA1,EA0
+2,IA2,EA0
+3,IA3,EA0
+4,IA0,EA1
+5,IA0,EA2
+6,IA0,EA3
+7,IA1,EA1
+8,IA3,EA2
+9,IA3,EA3
+10,IA3,EA1
+11,IA1,EA2
+12,IA1,EA3
+13,IA2,EA3
+14,IA2,EA2
+15,IA2,EA1
