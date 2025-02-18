@@ -15,5 +15,5 @@ This was designed to test the quality of service on different security protocols
 ## Support
 If you need troubleshooting help look at the wiki located [here](https://hpcgitlab.hpc.inl.gov/DAV/qos_ldrd/-/wikis/home)
 
-## License
-For open source projects, say how it is licensed. #TODO
+## [License](https://github.com/IdahoLabUnsupported/Wireless_QOS_ML_tools/blob/main/LICENSE)
+
